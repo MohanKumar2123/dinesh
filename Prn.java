@@ -1,7 +1,7 @@
 import java.util.*;
 class Positiveornegative
 {
-public static voiid main(String args[])
+public static void main(String args[])
 {
 int a;
 System.out.println(" enter the number");
