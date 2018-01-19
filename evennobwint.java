@@ -5,8 +5,8 @@ public class EvenrOddno
     {
         Scanner in=new Scanner(System.in);
         int a=in.nextInt();
-        int b=in.nextInt();int i;
-        for(i=a;i<b;i++)
+        int b=in.nextInt();
+        for(int i=a;i<b;i++)
         {
             if(i%2==0)
             {
