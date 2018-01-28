@@ -5,8 +5,7 @@ public class special
         int large=0; 
         int num;
         Scanner in=new Scanner(System.in);
-        int n=in.nextInt();
-        for(int i=0;i<n;i++)
+        for(int i=0;i<10;i++)
         {
           num=in.nextInt();
           if(num>large)
