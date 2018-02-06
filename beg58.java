@@ -4,12 +4,12 @@ public class special
 public  static void main(String args[]) 
 {
 Scanner in=new Scanner(System.in);  
-int a=in.nextInt();
-int b=in.nextInt();
-a=a^b;
-b=a^b;
-a=a^b;
-System.out.println(+a);
-System.out.println(+b);
+int no1=in.nextInt();
+int no2=in.nextInt();
+no1=no1^no2;
+  no2=no1^no2;
+  no1=no1^no2;
+System.out.println(+no1);
+System.out.println(+no2);
 }
 }
