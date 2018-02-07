@@ -6,9 +6,10 @@ public class number
         Scanner in=new Scanner(System.in);
         String s=in.nextLine();     
         int k=in.nextInt();
-        for(int i=1;i<=k;i++)
+        char a[]=s.toCharArray();
+        for(int i=0;i<k;i++)
         {
-            System.out.println(s);
+            System.out.print(a[i]);
         }
     }
 }
