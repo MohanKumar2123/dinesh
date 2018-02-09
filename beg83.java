@@ -5,7 +5,7 @@ public class MyClass {
     Scanner in=new Scanner(System.in);
     for(int i=1;i<=3;i++)
     {
-     double no1=in.nextDouble();char a=in.next().charAt(0);double no2=in.nextDouble(),n;
+     int no1=in.nextInt();char a=in.next().charAt(0);int no2=in.nextInt(),n;
      switch(a)
      {
          case'+':
