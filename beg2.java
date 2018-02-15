@@ -1,8 +1,9 @@
-import java.lang.*;
-class Evenorodd{
+import java.util.*;
+public class Evenorodd{
 public static void main(String args[])
 {
-int a;
+Scanner in=new Scanner(System.in);
+int a=in.nextInt();
 if(a%2==0){
 System.out.println("even");}
 else{
